@@ -1,0 +1,18 @@
+﻿@page "/"
+
+@using System.Runtime.InteropServices
+
+<h1>Hello World!</h1>
+
+Welcome to your new app that was renderd on the @Platform.
+
+<SurveyPrompt Title="How is Blazor working for you?" />
+
+@code{
+	private string Platform { get; set; } = "";
+
+	protected override void OnInitialized()
+	{
+		Platform = RuntimeInformation.IsOSPlatform(OSPlatform.Create("BROWSER")) ? "Client" : "Server";
+	}
+}
