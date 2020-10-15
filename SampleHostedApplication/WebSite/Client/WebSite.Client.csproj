@@ -15,6 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\SampleRazorClassLibrary\SampleRazorClassLibrary.csproj" />
     <ProjectReference Include="..\Shared\WebSite.Shared.csproj" />
   </ItemGroup>
 
