@@ -8,10 +8,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="5.0.0-rc.1.20451.17" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="5.0.0-rc.2.20475.17" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\SampleRazorClassLibrary\SampleRazorClassLibrary.csproj" />
     <ProjectReference Include="..\Client\WebSite.Client.csproj" />
     <ProjectReference Include="..\Shared\WebSite.Shared.csproj" />
   </ItemGroup>
