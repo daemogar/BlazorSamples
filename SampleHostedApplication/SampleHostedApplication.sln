@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebSite.Client", "WebSite\C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebSite.Shared", "WebSite\Shared\WebSite.Shared.csproj", "{B9037B7D-0EA1-43E1-8AE1-2D10AEA230EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleRazorClassLibrary", "..\SampleRazorClassLibrary\SampleRazorClassLibrary.csproj", "{0EF23C69-5E91-4835-9C40-100E94D2D7EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleRazorClassLibrary", "..\SampleRazorClassLibrary\SampleRazorClassLibrary.csproj", "{0EF23C69-5E91-4835-9C40-100E94D2D7EA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleSourceGenerators", "..\SampleSourceGenerators\SampleSourceGenerators.csproj", "{427B7BEE-9B06-4EA2-9C60-465C07F35618}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{0EF23C69-5E91-4835-9C40-100E94D2D7EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0EF23C69-5E91-4835-9C40-100E94D2D7EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0EF23C69-5E91-4835-9C40-100E94D2D7EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{427B7BEE-9B06-4EA2-9C60-465C07F35618}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{427B7BEE-9B06-4EA2-9C60-465C07F35618}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{427B7BEE-9B06-4EA2-9C60-465C07F35618}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{427B7BEE-9B06-4EA2-9C60-465C07F35618}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
